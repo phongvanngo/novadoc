@@ -12,6 +12,8 @@ It builds your site as simple **static HTML, JavaScript and CSS files**.
 
 Build your site **for production**:
 
+
+
 ```bash
 npm run build
 ```

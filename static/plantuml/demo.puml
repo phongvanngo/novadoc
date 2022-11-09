@@ -1,3 +1,12 @@
 @startuml
-actor actor
+(manage department) as uc_manage_department
+(create department) as uc_create_department
+(edit department) as uc_edit_department
+(update department) as uc_update_deparment
+(delete department) as uc_delete_department
+
+uc_manage_department <-- uc_create_department #black;line.dashed : extend
+uc_manage_department <-- uc_update_deparment #black;line.dashed : extend
+uc_manage_department <-- uc_edit_department #black;line.dashed : extend
+uc_manage_department <-- uc_delete_department #black;line.dashed : extend
 @enduml
