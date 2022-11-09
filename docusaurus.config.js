@@ -7,8 +7,8 @@ const myPlantUML = require("./src/my-plugin/custom-plantuml");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Doc Hero",
+  tagline: "Project 2 - UIT",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Doc Hero",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -69,7 +69,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Document",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -86,7 +86,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Document",
                 to: "/docs/intro",
               },
             ],

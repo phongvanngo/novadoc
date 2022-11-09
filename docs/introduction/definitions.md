@@ -1,18 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 ---
 
-# Congratulations!
-
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
-
-Docusaurus has **much more to offer**!
-
-Have **5 more minutes**? Take a look at **[versioning](../document-extras/manage-docs-versions.md)** and **[i18n](../document-extras/translate-your-site.md)**.
-
-Anything **unclear** or **buggy** in this document? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
-
-## What's next?
+# Definitions, Acronyms, and Abbreviations 
 
 - Read the [official documentation](https://docusaurus.io/)
 - Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)

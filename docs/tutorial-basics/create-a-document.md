@@ -43,14 +43,14 @@ It is also possible to create your sidebar explicitly in `sidebars.js`:
 
 ```js title="sidebars.js"
 module.exports = {
-  tutorialSidebar: [
+  documentSidebar: [
     'intro',
     // highlight-next-line
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Document',
+      items: ['document-basics/create-a-document'],
     },
   ],
 };
